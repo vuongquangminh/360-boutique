@@ -1,3 +1,4 @@
+
 .header-top p{
     font-size: 12px;
     text-align: center;
@@ -698,8 +699,10 @@
     height: 100%;
     margin-left: 66%;
     margin-left: 1019px;
-    padding: 62px 60px;
+    padding: 40px 36px 40px 42px;
     animation: showsearch ease 0.7s;
+    max-width: 720px;
+    overflow-y: auto;
 }
 #Cart .modal-body-head {
     display: flex;
@@ -722,7 +725,7 @@
 #Cart .modal-body-center p {
     font-size: 16px;
     line-height: 30px;
-    padding: 30px 0;
+    padding: 9px 0 27px 0;
 }
 #Cart .modal-body-center .line{
     height: 2px;
@@ -785,5 +788,57 @@
     }
 }
 
+
+.no-item {
+
+}
+.have-item {
+
+}
+.wrapper-item {
+    display: flex;
+    padding: 8px;
+}
+.wrapper-item:hover {
+    background-color: #ccc;
+    /* transition: all 0.3s ease-in; */
+}
+.box-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.have-item-head{
+    margin-bottom: 12px;
+}
+.have-item-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.have-item-body-price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f94c43;
+}
+.have-item-body-size{
+
+}
+.have-item-body-soluong{
+    display: flex;
+    justify-content: end;
+}
+.closeX {
+    margin-top: 9px;
+    font-size: 19px;
+}
+
+.iconAdd {
+    background-color: #ccc;
+    padding: 2px;
+    border: 1px solid;  
+    margin: 0 3px;
+}
 
 
