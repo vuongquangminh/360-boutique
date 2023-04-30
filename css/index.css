@@ -362,6 +362,7 @@
     max-width: 400px;
     text-align: center;
     margin: 15px;
+    cursor: pointer;
 }
 .contact3-body-item img{
 
@@ -729,10 +730,12 @@
     }
 }
 
+.eventSale {
+    display: block;
+}
 
-
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .header-top p {
         color: red ;
     }
-}
+} */

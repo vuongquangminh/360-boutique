@@ -356,3 +356,6 @@
       box-sizing: border-box;
   
   }
+  p {
+    margin-bottom: 0
+  }

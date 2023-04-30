@@ -1,4 +1,6 @@
-
+p {
+    margin-bottom: 0;
+}
 .header-top p{
     font-size: 12px;
     text-align: center;
@@ -98,7 +100,7 @@
 .header-foot-item-sub{
     display: flex;
     position: absolute;
-    left: -554%;
+    left: -588%;
     width: 1519px;
     top: 51px;
     padding-left: 325px;
@@ -133,10 +135,12 @@
     justify-items: center;
     margin-bottom: 8px;
     align-items: center;
+    line-height: 6px;
 }
 .sub-item-body i{
     font-size: 13px;
     margin-right: 4px;
+    margin-top: -16px;
 }
 .sub-item-body p{
     font-size: 15px;
@@ -313,6 +317,7 @@
 .contact-body-right-quality p {
     width: 68px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .contact-body-right-footer {
@@ -331,6 +336,7 @@
 .contact-body-right-footer p {
     font-size: 12px;
     margin-left: 4px;
+    margin-bottom: 0;
 }
 
 .item.color {
@@ -384,7 +390,7 @@
 }
 .contact2-columns-item:hover .contact2-columns-item-hide .hide-item{
     opacity: 1;
-    top: -30px;
+    top: -50px;
 }
 
 .contact2-columns-item img{
@@ -434,7 +440,7 @@
     height: 75px;
     width: 266.66px;
     background-color: white;
-    margin-top: -79px;
+    margin-top: -75px;
     position: relative;
     opacity: 0;
     top: 10px;
@@ -515,6 +521,7 @@
     font-size: 14px;
     margin-right: 11px;
     cursor: pointer;
+    margin-bottom: 0;
 }
 .footer-head-right-call a{
     text-decoration: none;
@@ -571,7 +578,7 @@
     font-size: 19px;
 }
 .content-foot-left-page p {
-    
+    margin-bottom: 0;
 }
 .content-foot-right {
     display: flex;
