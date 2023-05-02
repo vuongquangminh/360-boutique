@@ -285,6 +285,7 @@
 
 .contact2-columns-item img{
     width: 100%;
+    height: 100%;
 }
 .contact2-columns-item .item-sub {
     text-align: center;
@@ -761,9 +762,6 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 5px;
-    }
-    .contact2-columns-item-sub {
-        width: 100%;
     }
     .contact2-columns-item-sub {
         width: 100%;
