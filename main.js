@@ -72,6 +72,18 @@ modalBody.onclick = function (event) {
     event.stopPropagation()
 }
 
+//mobile navbar 
+
+var menu = document.querySelector('.bars')
+var show = document.querySelector('.header-foot')
+menu.onclick = () => {
+    if(show.style.display = 'none') {
+        show.style.display = 'block'
+        document.querySelector('.contact1-slider-control').style.display='none'
+    } 
+
+}
+
 
 
 
