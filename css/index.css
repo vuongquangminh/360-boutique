@@ -765,6 +765,9 @@
     .contact2-columns-item-sub {
         width: 192px;
     }
+    .contact2-columns-item-sub {
+        width: 100%;
+    }
     .contact3-body-item {
         width: 29.7%;
     }
@@ -775,8 +778,8 @@
         width: 100%;
     }
     #footer {
-        /* margin-top: 4%; */
-        /* height: 5055px; */
+        margin-top: 4%;
+        height: 1500px;
     }
     .footer-body {
         margin: 0;
