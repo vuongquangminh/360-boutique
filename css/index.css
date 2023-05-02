@@ -756,7 +756,7 @@
         /* height: 100%; */
     }
     .contact2-columns-item img {
-        height: 287px;  
+        height: 100%;  
     }
     .contact2-columns {
         display: flex;
