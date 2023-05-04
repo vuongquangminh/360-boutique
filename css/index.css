@@ -157,7 +157,7 @@
     position: absolute;
     width: 159px;
     top: 42px;
-    animation: show ease-in 0.5s;
+    /* animation: show ease-in 0.5s; */
     background-color: white;
     display: none;
 }
@@ -787,14 +787,19 @@
         padding: 0 9px;
 
     }
+    .footer-head {
+        padding: 0.8% 2%;
+    }
     .footer-head-center input {
         width: 40%;
     }
     .footer-head-center {
         margin: 0;
+        align-items: normal;
     }
     .footer-head-center button {
-        padding: 9px 18px
+        padding: 3% 0;
+        width: 20%;
     }
     input[type="text"] {
         flex-grow: 1;
@@ -830,7 +835,7 @@
         height: 100%;
     }
 }
-
+/* Mobile */
 @media only screen and (max-width: 819px) {
     .header-top p {
         height: 33px;
@@ -932,5 +937,8 @@
     } 
     .footer-head-right-call a {
         font-size: 12px;
+    }
+    .contact3-body-item {
+        max-width: 100%;
     }
 }
