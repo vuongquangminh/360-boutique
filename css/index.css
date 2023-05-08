@@ -330,7 +330,7 @@
     height: 75px;
     width: 100%;
     background-color: white;
-    margin-top: -79px;
+    margin-top: -75px;
     position: relative;
     opacity: 0;
     top: 10px;
@@ -942,3 +942,26 @@
         max-width: 100%;
     }
 }
+
+
+
+.contact2-columns-item-sub {
+    overflow: hidden;
+}
+.contact2-columns-item-sub .img {
+    overflow: hidden;
+}
+.contact2-columns-item-sub img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.eventSale {
+    overflow: hidden;
+}
+.contact3-body-item img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+
