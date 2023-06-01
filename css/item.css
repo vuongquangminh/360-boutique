@@ -386,9 +386,19 @@ p {
 .contact2-columns-item {
     cursor: pointer;
 }
+.contact2-columns-item>a {
+    text-decoration: none;
+}
+.contact2-columns-item .item-sub h6 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+}
+
 .contact2-columns-item:hover .contact2-columns-item-hide .hide-item{
-    opacity: 1;
-    top: -50px;
+    /* opacity: 1;
+    top: -50px; */
+
 }
 
 .contact2-columns-item img{
@@ -422,6 +432,7 @@ p {
     top: 0;
     transition: top ease-out 0.7s;
     opacity: 0;
+    display: none;
 }
 .contact2-columns-item-hide .hide-item img{
     height: 40px;
@@ -443,10 +454,12 @@ p {
     opacity: 0;
     top: 10px;
     transition: top ease 0.7s;
+    display: none;
 }
 .contact2-columns-item:hover .box {
     opacity: 1;
     top: 0;
+    display: none;
 }
 
 
@@ -745,6 +758,11 @@ p {
 #Cart .modal-body-foot p {
     font-size: 14px;
     padding: 10px 0;
+}
+#Cart .modal-body-foot h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f94c43;
 }
 #Cart .modal-foot {
     display: flex;

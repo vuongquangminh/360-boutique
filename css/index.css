@@ -279,8 +279,8 @@
     width: 20%;
 }
 .contact2-columns-item:hover .contact2-columns-item-hide .hide-item{
-    opacity: 1;
-    top: -30px;
+    /* opacity: 1;
+    top: -30px; */
 }
 
 .contact2-columns-item img{
@@ -295,6 +295,14 @@
     text-decoration: none;
     color: #252a2b;
     font-size: 14px;
+}
+.contact2-columns-item>a {
+    text-decoration: none;
+}
+.contact2-columns-item .item-sub h6 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
 }
 .contact2-columns-item .item-sub p{
     font-size: 15px;
@@ -314,6 +322,7 @@
     top: 0;
     transition: top ease-out 0.7s;
     opacity: 0;
+    display: none;
 }
 .contact2-columns-item-hide .hide-item img{
     height: 40px;
@@ -335,10 +344,11 @@
     opacity: 0;
     top: 10px;
     transition: top ease 0.7s;
+    display: none;
 }
 .contact2-columns-item:hover .box {
-    opacity: 1;
-    top: 0;
+    /* opacity: 1;
+    top: 0; */
 }
 /* Contact3 */
 .contact3{
@@ -564,9 +574,8 @@
     position: relative;
     width: 33%;
     height: 100%;
-    margin-left: 66%;
-    margin-left: 1019px;
-    padding: 62px 60px;
+    margin-left: 67%;
+    padding: 63px 37px;
     animation: showsearch ease 0.7s;
 }
 .modal-body-head {
@@ -649,9 +658,8 @@
     position: relative;
     width: 33%;
     height: 100%;
-    margin-left: 66%;
-    margin-left: 1019px;
-    padding: 62px 60px;
+    margin-left: 67%;
+    padding: 63px 37px;
     animation: showsearch ease 0.7s;
 }
 #Cart .modal-body-head {
@@ -700,9 +708,10 @@
     background-color: black;
     color: white;
     border: none;
-    padding: 20px 40px;
+    padding: 20px 0px;
     font-size: 14px;
     cursor: pointer;
+    width: 100%;
 }
 #Cart .modal-foot button:hover {
     opacity: 0.8;
@@ -833,6 +842,9 @@
     .footer-body-item .content .thongbao img {
         width: 72%;
         height: 100%;
+    }
+    #Cart .modal-body {
+        padding: 43px 24px;
     }
 }
 /* Mobile */
