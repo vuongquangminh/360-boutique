@@ -35,9 +35,19 @@ PlacePrice.innerHTML=`${updatePrice}.000`
 var PlaceName = document.querySelector('.contact-body-right .name')
 var updateName = localStorage.getItem("NameCurrent")
 PlaceName.innerHTML = `${updateName}`
+// var myDefault = document.querySelectorAll('.contact2-columns-item a')
+// myDefault.forEach(sd => {
+//     sd.addEventListener("click", function(event) {
+//         event.preventDefault(); // Ngăn chặn hành động mặc định của sự kiện click
+//         // Các đoạn mã xử lý khác sau khi ngăn chặn hành động mặc định
+//     });
+// })
 
 // Lấy ảnh trong LocalStorage rồi chèn vào thẻ img sp
 var Show_Avt = document.querySelector('.contact-body-left .show img')
+console.log(Show_Avt)
 var New_Avata_Src = localStorage.getItem("Avata_Src")
 Show_Avt.src = New_Avata_Src
+// console.log(New_Avata_Src)
+// Show_Avt.src = New_Avata_Src
 
