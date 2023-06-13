@@ -47,7 +47,8 @@ PlaceName.innerHTML = `${updateName}`
 var Show_Avt = document.querySelector('.contact-body-left .show img')
 console.log(Show_Avt)
 var New_Avata_Src = localStorage.getItem("Avata_Src")
-Show_Avt.src = New_Avata_Src
-// console.log(New_Avata_Src)
+// Show_Avt.src = New_Avata_Src
+Show_Avt.src = '.' + New_Avata_Src.slice(25)
+console.log(New_Avata_Src)
 // Show_Avt.src = New_Avata_Src
 
